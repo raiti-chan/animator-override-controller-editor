@@ -9,6 +9,9 @@ on:
 env:
   packageName: "raitichan.com.animator-override-controller-editor"
   
+permissions:
+  contents: write
+  
 jobs:
   build:
     runs-on: ubuntu-latest
