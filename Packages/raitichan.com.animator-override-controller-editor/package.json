@@ -1,16 +1,16 @@
 {
   "name": "raitichan.com.animator-override-controller-editor",
   "displayName": "Animator Override Controller Editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "unity": "2019.4",
   "description": "Support tool to edit the AnimatorOverrideController of the avatar",
   "author": {
     "name": "Raitichan",
     "email": "",
-    "url": ""
+    "url": "https://github.com/raiti-chan"
   },
-  "url": "",
-  "repo": "",
+  "url": "https://github.com/raiti-chan/animator-override-controller-editor/releases/download/0.0.1/raitichan.com.animator-override-controller-editor-0.0.2.zip",
+  "repo": "https://raw.githubusercontent.com/raiti-chan/animator-override-controller-editor/master/vpm.json",
   "vpmDependencies": {
     "com.vrchat.avatars": ">=3.1.13"
   }
