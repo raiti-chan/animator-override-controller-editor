@@ -4,5 +4,7 @@
   "author": "Raitichan",
   "url": "https://raw.githubusercontent.com/raiti-chan/animator-override-controller-editor/master/vpm.json",
   "packages": {
+    "raitichan.com.animator-override-controller-editor": {
+    }
   }
 }
