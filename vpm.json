@@ -1,0 +1,11 @@
+﻿{
+  "name": "AnimatorOverrideController Editor",
+  "author": "Raitichan",
+  "url": "",
+  "packages": {
+    "raitichan.com.animator-override-controller-editor": {
+    }
+    
+  }
+  
+}
