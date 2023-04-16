@@ -2,7 +2,7 @@
   "name": "AnimatorOverrideController Editor",
   "id": "raitichan.com.animator-override-controller-editor",
   "author": "Raitichan",
-  "url": "",
+  "url": "https://raw.githubusercontent.com/raiti-chan/animator-override-controller-editor/master/vpm.json",
   "packages": {
     "raitichan.com.animator-override-controller-editor": {
       "0.0.2": {
@@ -40,7 +40,5 @@
         }
       }
     }
-    
   }
-  
 }
