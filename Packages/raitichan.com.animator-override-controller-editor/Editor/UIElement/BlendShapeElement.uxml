@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Root" style="flex-direction: row;">
+        <ui:Toggle name="Toggle" focusable="false" style="margin-top: 4px;" />
+        <ui:Slider picking-mode="Ignore" label="Slider" name="Slider" high-value="100" focusable="false" style="flex-grow: 1;" />
+        <uie:FloatField name="Float" style="width: 35px;" />
+    </ui:VisualElement>
+</ui:UXML>
