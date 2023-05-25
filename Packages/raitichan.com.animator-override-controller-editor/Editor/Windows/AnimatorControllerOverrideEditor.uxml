@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Root" style="margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; flex-grow: 1;">
+        <ui:VisualElement name="Header" style="flex-direction: row;">
+            <ui:IMGUIContainer name="Preview" style="width: 200px; height: 200px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;" />
+            <ui:VisualElement name="Setting" style="flex-grow: 1; margin-left: 5px;">
+                <uie:ObjectField label="Avatar" name="AvatarField" />
+                <uie:ObjectField label="OverrideController" name="OverrideControllerField" allow-scene-objects="false" />
+                <ui:ListView focusable="false" name="AnimationList" item-height="20" style="flex-grow: 1; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; margin-top: 2px; background-color: rgb(47, 47, 47);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Body" style="flex-direction: row; margin-top: 5px; flex-grow: 1;">
+            <ui:ListView focusable="false" item-height="20" name="SkinnedMeshRendererList" style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); width: 200px; background-color: rgb(47, 47, 47);" />
+            <ui:ListView item-height="22" name="BlendShapeList" style="flex-grow: 1; border-left-color: rgb(34, 34, 34); border-right-color: rgb(34, 34, 34); border-top-color: rgb(34, 34, 34); border-bottom-color: rgb(34, 34, 34); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; margin-left: 5px; background-color: rgb(47, 47, 47);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" style="margin-top: 5px; flex-direction: row-reverse;">
+            <ui:Button text="Save" name="SaveButton" style="padding-left: 16px; padding-right: 16px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
